@@ -68,6 +68,7 @@ reset.addEventListener('click', ()=> {
     });
     turn = "X"
     gameend= false;
+    document.querySelector('.line').style.width = "0vw"
     document.getElementsByClassName("info")[0].innerText = "Turn for  " + turn;
     document.querySelector('.img-box').getElementsByTagName('img')[0].style.width = "0px"
 })
